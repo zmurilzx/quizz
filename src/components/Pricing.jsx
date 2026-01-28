@@ -7,7 +7,7 @@ function Pricing({ onSelectPlan }) {
       name: 'Plano Mensal',
       price: 'R$ 29,90',
       period: '/mês',
-      checkoutUrl: 'https://pay.cakto.com.br/33pbxy7_610779',
+      checkoutUrl: 'https://pay.cakto.com.br/32sawv8',
       features: [
         'HD, FHD, 4K',
         '+3.000 canais',
@@ -26,7 +26,7 @@ function Pricing({ onSelectPlan }) {
       name: 'Plano Semestral',
       price: 'R$ 89,90',
       period: '/6 meses',
-      checkoutUrl: 'https://pay.cakto.com.br/xkehep2_608252',
+      checkoutUrl: 'https://pay.cakto.com.br/r8ao9dd',
       features: [
         'HD, FHD, 4K',
         '+3.000 canais',
@@ -45,7 +45,7 @@ function Pricing({ onSelectPlan }) {
       name: 'Plano Anual',
       price: 'R$ 189,90',
       period: '/12 meses',
-      checkoutUrl: 'https://pay.cakto.com.br/3b87s8g_608254',
+      checkoutUrl: 'https://pay.cakto.com.br/3dhz8j2_745136',
       features: [
         '2 Telas simultâneas',
         '+3.000 canais',
@@ -65,7 +65,7 @@ function Pricing({ onSelectPlan }) {
       name: 'Plano Vitalício',
       price: 'R$ 149,90',
       period: '/vitalício',
-      checkoutUrl: 'https://pay.cakto.com.br/hgxozmo_738525',
+      checkoutUrl: 'https://pay.cakto.com.br/3dhz8j2_745136',
       features: [
         '2 ou + Telas simultâneas',
         '+3.000 canais',
