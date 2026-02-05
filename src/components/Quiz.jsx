@@ -6,17 +6,17 @@ const questions = [
     id: 1,
     icon: Sparkles,
     emoji: '⭐',
-    question: 'Você já assina alguma plataforma de streaming ou ainda não assina nenhuma?',
+    question: 'Você quer parar de mensalidades e pagar uma única vez?',
     answers: [
-      { text: 'Sim, já uso!', emoji: '✅' },
-      { text: 'Ainda não uso nenhuma...', emoji: '🚀' }
+      { text: 'Sim, claro!', emoji: '✅' },
+      { text: 'Ainda não!', emoji: '🚀' }
     ]
   },
   {
     id: 2,
     icon: Gift,
     emoji: '🎁',
-    question: '🍿 Você gostaria de assistir todos os canais de TV, filmes e séries com 2 ou mais TELAS pagando uma única vez?',
+    question: '🍿 Você gostaria de assistir não perder nenhum jogo, novela, filme ou série pagando uma única vez?',
     answers: [
       { text: 'Sim, claro!', emoji: '🤩' },
       { text: 'Não...', emoji: '😔' }
@@ -26,9 +26,9 @@ const questions = [
     id: 3,
     icon: Target,
     emoji: '✅',
-    question: '💎 Você quer aproveitar a promoção de LANÇAMENTO com a nova tecnologia CINESTREAM?',
+    question: '💎 Você quer aproveitar a promoção de LIMITADA com a nova tecnologia CINESTREAM?',
     answers: [
-      { text: 'Sim, eu quero!', emoji: '✅' },
+      { text: 'Sim, claro!', emoji: '✅' },
       { text: 'Não...', emoji: '😔' }
     ]
   },
@@ -36,10 +36,10 @@ const questions = [
     id: 4,
     icon: Zap,
     emoji: '⚡',
-    question: 'Se houvesse o CineStream com tudo ilimitado, atualizações toda semana e pagamento único com acesso vitalício, você teria interesse?',
+    question: 'Quer conhecer o app com pagamento único com ACESSO VITALÍCIO?',
     answers: [
       { text: 'SIM! Quero conhecer agora', emoji: '✅' },
-      { text: 'Talvez, preciso ver mais detalhes', emoji: '🚀' }
+      { text: 'No momento não!', emoji: '🚀' }
     ]
   }
 ]

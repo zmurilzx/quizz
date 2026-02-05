@@ -5,7 +5,7 @@ function Pricing({ onSelectPlan }) {
     {
       id: 'mensal',
       name: 'Plano Mensal',
-      price: 'R$ 29,90',
+      price: '24,90',
       period: '/mês',
       checkoutUrl: 'https://pay.cakto.com.br/32sawv8',
       features: [
@@ -14,14 +14,15 @@ function Pricing({ onSelectPlan }) {
         '+100.000 filmes e séries',
         'Streamings inclusos',
         'Conteúdo adulto',
-        'Suporte 24/7'
+        'Suporte 24/7',
+        'Bônus exclusivo'
       ],
       buttonText: 'ASSINAR AGORA! 🚀',
       buttonClass: 'btn-plan-purple',
       popular: false,
       delay: '0ms'
     },
-    {
+    /* {
       id: 'semestral',
       name: 'Plano Semestral',
       price: 'R$ 89,90',
@@ -39,21 +40,23 @@ function Pricing({ onSelectPlan }) {
       buttonClass: 'btn-plan-yellow',
       popular: true,
       delay: '100ms'
-    },
+    }, */
     {
       id: 'anual',
       name: 'Plano Anual',
-      price: 'R$ 189,90',
+      price: '189,90',
       period: '/12 meses',
       checkoutUrl: 'https://pay.cakto.com.br/3dhz8j2_745136',
       features: [
+        'HD, FHD, 4K',
         '2 Telas simultâneas',
         '+3.000 canais',
         '+100.000 filmes e séries',
         'Streamings inclusos',
         'Conteúdo adulto',
         'Atualizações toda semana',
-        'Suporte 24/7'
+        'Suporte 24/7',
+        'Bônus exclusivo'
       ],
       buttonText: 'ASSINAR AGORA! 🚀',
       buttonClass: 'btn-plan-purple',
@@ -63,11 +66,11 @@ function Pricing({ onSelectPlan }) {
     {
       id: 'vitalicio',
       name: 'Plano Vitalício',
-      price: 'R$ 149,90',
+      price: '114,90',
       period: '/vitalício',
       checkoutUrl: 'https://pay.cakto.com.br/3dhz8j2_745136',
       features: [
-        '2 ou + Telas simultâneas',
+        'HD, FHD, 4K',
         '+3.000 canais',
         '+100.000 filmes e séries',
         'Streamings inclusos',
@@ -75,7 +78,8 @@ function Pricing({ onSelectPlan }) {
         'Atualizações toda semana',
         'Bônus exclusivo',
         'Sem mensalidade',
-        'Suporte Prioritário'
+        'Suporte Prioritário',
+        'Bônus exclusivo'
       ],
       buttonText: 'ASSINAR AGORA! 🚀',
       buttonClass: 'btn-plan-purple',
@@ -96,8 +100,8 @@ function Pricing({ onSelectPlan }) {
           </h3>
           <div className="alert-promo-new">🎁 PROMOÇÃO ESPECIAL 🎁</div>
           <p className="alert-text-new">
-            Assine <span className="alert-highlight-accent">1 TELA HOJE</span> e leve{' '}
-            <span className="alert-highlight-primary">2 TELAS sem pagar nada a mais!</span>
+            Assine <span className="alert-highlight-accent">HOJE</span> e leve{' '}
+            <span className="alert-highlight-primary">BÔNUS EXCLUSIVO sem pagar nada a mais!</span>
           </p>
           <div className="alert-timer-new">
             <Clock size={20} />
@@ -112,13 +116,13 @@ function Pricing({ onSelectPlan }) {
           </h2>
         </div>
 
-        {/* Access Info */}
+        {/* Contact Info */}
         <div className="access-box-new">
-          <p className="access-box-title">TODOS OS PLANOS LIBERAM ACESSO A:</p>
+          <p className="access-box-title">📱 IMPORTANTE:</p>
           <div className="access-box-content">
             <span className="access-box-item">
               <Check size={20} className="access-check" />
-              2 OU + TELAS SIMULTÂNEAS
+              AO CONFIRMAR O PAGAMENTO A EQUIPE CINESTREAM IRÁ ENTRAR EM CONTATO IMEDIATAMENTE
             </span>
           </div>
         </div>
@@ -179,14 +183,16 @@ function Pricing({ onSelectPlan }) {
           </p>
         </div>
 
-        {/* Bonus Box */}
+        {
+        /* Bonus Box 
         <div className="bonus-box-new">
           <Gift size={48} className="bonus-icon-new" />
           <p className="bonus-text-new">
             🎁 Não esqueça: Assine <span className="bonus-highlight-accent">1 tela</span> e leve{' '}
             <span className="bonus-highlight-primary">2 telas</span> hoje!
           </p>
-        </div>
+        </div>*/
+        }
       </div>
     </section>
   )

@@ -33,7 +33,7 @@ function AppDemo({ onCTA }) {
       </div>
 
       <h1 className="demo-title">
-        ESSE É O APLICATIVO <span className="text-yellow">CINESTREAM</span> NA PRÁTICA
+        JÁ PENSOU EM TER ESSE APP NA SUA TELEVISÃO <span className="text-yellow">PARA SEMPRE E SEM MENSALIDADES?</span>
       </h1>
       <p className="demo-subtitle">Interface moderna, intuitiva e rápida</p>
 
@@ -42,7 +42,7 @@ function AppDemo({ onCTA }) {
           {/* Substitua o src abaixo pelo link do seu vídeo (YouTube, Vimeo, etc) */}
           {/* Exemplo YouTube: https://www.youtube.com/embed/SEU_VIDEO_ID */}
           {/* Exemplo Vimeo: https://player.vimeo.com/video/SEU_VIDEO_ID */}
-          <wistia-player media-id="5gt55026re" aspect="0.5625"></wistia-player>
+          <wistia-player media-id="5gt55026re" aspect="1.7679558011049723"></wistia-player>
         </div>
       </div>
 
