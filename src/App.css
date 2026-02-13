@@ -1567,7 +1567,38 @@
 
 .security-highlight-accent {
   color: hsl(var(--accent));
+}
+
+/* WhatsApp Button Pricing */
+.whatsapp-button-pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 30px;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
   font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-button-pricing:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  background: linear-gradient(135deg, #128C7E 0%, #25D366 100%);
+}
+
+.whatsapp-button-pricing:active {
+  transform: translateY(0);
 }
 
 /* Bonus Box New */

@@ -1,11 +1,11 @@
-import { Check, Clock, Star, Gift } from 'lucide-react'
+import { Check, Clock, Star, Gift, MessageCircle } from 'lucide-react'
 
 function Pricing({ onSelectPlan }) {
   const plans = [
     {
       id: 'mensal',
       name: 'Plano Mensal',
-      price: '24,90',
+      price: '28,90',
       period: '/mês',
       checkoutUrl: 'https://pay.cakto.com.br/32sawv8',
       features: [
@@ -22,7 +22,7 @@ function Pricing({ onSelectPlan }) {
       popular: false,
       delay: '0ms'
     },
-    /* {
+    {
       id: 'semestral',
       name: 'Plano Semestral',
       price: 'R$ 89,90',
@@ -40,11 +40,11 @@ function Pricing({ onSelectPlan }) {
       buttonClass: 'btn-plan-yellow',
       popular: true,
       delay: '100ms'
-    }, */
+    },
     {
       id: 'anual',
       name: 'Plano Anual',
-      price: '189,90',
+      price: '159,90',
       period: '/12 meses',
       checkoutUrl: 'https://pay.cakto.com.br/3dhz8j2_745136',
       features: [
@@ -66,7 +66,7 @@ function Pricing({ onSelectPlan }) {
     {
       id: 'vitalicio',
       name: 'Plano Vitalício',
-      price: '114,90',
+      price: '189,90',
       period: '/vitalício',
       checkoutUrl: 'https://pay.cakto.com.br/3dhz8j2_745136',
       features: [
@@ -182,6 +182,15 @@ function Pricing({ onSelectPlan }) {
             📱 Após finalizar a compra, o <span className="security-highlight-accent">WhatsApp de suporte e instalação fará contato</span>
           </p>
         </div>
+
+        {/* WhatsApp Button */}
+        <button 
+          className="whatsapp-button-pricing"
+          onClick={() => window.open('https://wa.me/5543999748808?text=Olá! Tenho dúvidas sobre os planos CineStream', '_blank')}
+        >
+          <MessageCircle size={24} />
+          Falar com Suporte no WhatsApp
+        </button>
 
         {
         /* Bonus Box 

@@ -23,16 +23,6 @@ const questions = [
     ]
   },
   {
-    id: 3,
-    icon: Target,
-    emoji: '✅',
-    question: '💎 Você quer aproveitar a promoção de LIMITADA com a nova tecnologia CINESTREAM?',
-    answers: [
-      { text: 'Sim, claro!', emoji: '✅' },
-      { text: 'Não...', emoji: '😔' }
-    ]
-  },
-  {
     id: 4,
     icon: Zap,
     emoji: '⚡',
